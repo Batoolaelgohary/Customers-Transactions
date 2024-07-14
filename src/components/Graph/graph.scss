@@ -1,0 +1,8 @@
+@import "../../styles/responsive.scss";
+.graph {
+  width: 40%;
+  @include md {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

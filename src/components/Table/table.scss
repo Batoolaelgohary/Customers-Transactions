@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+.tableData {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: $soft-bg;
+  border-radius: 20px;
+  border: none;
+  @include md {
+    width: 100%;
+  }
+  thead {
+    background-color: $main-color;
+    color: $dark-color;
+    th {
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+  tbody {
+    color: $main-color;
+    tr {
+      td {
+        padding: 10px;
+      }
+      .id {
+        font-weight: bold;
+      }
+    }
+  }
+}

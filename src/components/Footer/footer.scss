@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $main-color;
+  padding-block: 30px;
+  background-color: #558359;
+  text-align: center;
+  @include sm {
+    width: 100%;
+    h2 {
+      font-size: 18px;
+    }
+    @include md {
+      width: 100%;
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+}
